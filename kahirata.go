@@ -45,7 +45,7 @@ func main() {
 		}
 
 		if ch == "q" || ch == string('c'&0x1f) {
-			ioutil.WriteFile(("enhira_temp"), []byte(out), 0644)
+			ioutil.WriteFile(("kahirata_temp"), []byte(out), 0644)
 			break
 		} else if ch == "a" || ch == "e" || ch == "i" || ch == "o" || ch == "u" {
 			fmt.Print(script[index][seq])
